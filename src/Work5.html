@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Work5</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body ng-controller="myCtrl">
+	<ul>
+	  <li ng-repeat="language in languages">
+		<a href="#" ng-click="changeLanguage($index)">{{language}}</a>
+	  </li>
+	</ul>
+	  
+	  <script src="./Work5.js"></script>
+</body>
+</html>

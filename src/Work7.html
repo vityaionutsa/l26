@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Work7</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body>
+	<div ng-controller="myCtrl">
+	  <table>
+		<tr ng-repeat="row in numbers">
+		  <td ng-repeat="num in row">{{ num }}</td>
+		</tr>
+	  </table>
+	<script src="./Work7.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+
+<body>
+  <div ng-controller="MyController">
+    <p>Початковий масив: <span ng-repeat="number in numbers">
+      {{number}}
+    </span>
+    </p>
+    <p>Масив з додаванням 3: <span ng-repeat="number in numbers">
+      {{number + 3}}
+    </span>
+  </p>
+  </div>
+
+  <script src="./Work1.js"></script>
+</body>
+</html>
